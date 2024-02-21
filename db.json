@@ -31,5 +31,63 @@
       "id": "9957"
     }
   ],
-  "chats": []
+
+  "chats": [
+    {
+      "prompts": [
+        {
+          "id": "1",
+          "prompt": "hi",
+          "context": "context",
+          "timestamp": "2024-02-17T12:28:57.273Z"
+        },
+        {
+          "id": "2",
+          "prompt": "Give me the analysis",
+          "context": "Climate change is one of the most pressing issues of our time. The Earth's climate is changing at an unprecedented rate, largely due to human activities such as burning fossil fuels and deforestation. These activities release greenhouse gases into the atmosphere, which trap heat and cause the planet to warm. The impacts of climate change are already being felt around the world. Sea levels are rising, extreme weather events are becoming more common, and ecosystems are being disrupted. If left unchecked, climate change could have catastrophic consequences for both the environment and human society. Addressing climate change requires urgent action on a global scale. Countries must work together to reduce greenhouse gas emissions, transition to renewable energy sources, and protect and restore ecosystems. Individuals can also play a role by reducing their carbon footprint and advocating for climate action. The time to act is now. By taking meaningful steps to address climate change, we can protect the planet for future generations.",
+          "timestamp": "2024-02-17T12:28:57.273Z"
+        },
+        {
+          "id": "3",
+          "context": "XYZ Corp, a leading tech company, is developing 'DataVizPro,' a software aimed at transforming data analysis and decision-making. Designed for ease and efficiency, DataVizPro offers advanced visualization tools for creating charts, graphs, and dashboards, enabling users to uncover data trends and patterns. It integrates machine learning for complex analyses with minimal effort, promising accurate predictions and insights. The development team, experts in data analytics and machine learning, are fine-tuning DataVizPro with beta testers across industries. Slated for release in Q3, the software has gained industry excitement for its intuitive design and powerful capabilities, positioning it to redefine data analytics and help businesses leverage their data fully",
+          "prompt": "Summarize and give the key points"
+        }
+      ],
+      "messages": [
+        { "id": "1", "generatedText": "How can I assist you today?" },
+        {
+          "Topic": "The text discusses climate change as a pressing global issue.",
+          "KeyPoints": [
+            "Climate change is caused by human activities such as burning fossil fuels and deforestation.",
+            "It is leading to rising sea levels, more frequent extreme weather events, and disruption of ecosystems.",
+            "Urgent global action is needed to reduce greenhouse gas emissions, transition to renewable energy, and protect ecosystems.",
+            "Individuals can contribute by reducing their carbon footprint and advocating for climate action."
+          ],
+          "Tone": "The tone of the text is urgent and calls for immediate action.",
+          "Audience": "The text seems to target a general audience, aiming to raise awareness about climate change and the need for action.",
+          "Purpose": "The purpose of the text is to inform readers about the causes and impacts of climate change and to encourage them to take action to address it.",
+          "Sentiment": "The overall sentiment of the text is concerned and hopeful, emphasizing the importance of collective action in mitigating climate change.",
+          "Data": {
+            "Causes": "The text mentions the cause of climate change (human activities), its impacts (rising sea levels, extreme weather events, ecosystem disruption), and the actions needed to address it (reduce emissions, transition to renewable energy, protect ecosystems).",
+            "Actions": "It also highlights individual actions that can contribute to addressing climate change (reducing carbon footprint, advocating for climate action)."
+          }
+        },
+        {
+          "id": "3",
+          "generatedText": {
+            "Summary": "XYZ Corp is developing a new software application called 'DataVizPro' to meet the increasing demand for advanced data analytics tools. The software aims to revolutionize data-driven decision-making processes by offering powerful visualization capabilities and leveraging machine learning algorithms for accurate predictions and trend analysis. The development team is focused on ensuring the software meets high standards of performance, scalability, and user-friendliness, with a planned release date in Q3 of this year.",
+            "KeyPoints": [
+              "XYZ Corp is developing a new software application called 'DataVizPro' for advanced data analytics.",
+              "DataVizPro aims to revolutionize data-driven decision-making processes.",
+              "The software offers powerful visualization capabilities and leverages machine learning algorithms for accurate predictions and trend analysis.",
+              "The development team is focused on ensuring high standards of performance, scalability, and user-friendliness.",
+              "DataVizPro is planned for release in Q3 of this year."
+            ]
+          }
+        }
+      ],
+      "timestamp": "2024-02-17T12:28:57.273Z",
+      "id": 1
+    }
+  ]
 }
