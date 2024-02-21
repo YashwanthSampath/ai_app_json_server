@@ -1,0 +1,75 @@
+{
+    "prompt-datas": [
+      {
+        "id": "1",
+        "prompt": "Hi",
+        "context": "",
+        "response": "Hey! How can I help you today?"
+      },
+      {
+        "id": "2",
+        "prompt": "Summarize and give the key points",
+        "context": "XYZ Corp's DataVizPro integrates advanced data visualization with machine learning, revolutionizing decision-making with its user-friendly analytics platform. Anticipation is high for its Q3 release, praised for its intuitive interface and powerful features.",
+        "response": {
+          "topic": "",
+          "summary": "XYZ Corp is developing a new software application called 'DataVizPro' to meet the increasing demand for advanced data analytics tools. The software aims to revolutionize data-driven decision-making processes by offering powerful visualization capabilities and leveraging machine learning algorithms for accurate predictions and trend analysis. The development team is focused on ensuring the software meets high standards of performance, scalability, and user-friendliness, with a planned release date in Q3 of this year.",
+          "keypoints": [
+            {
+              "1": "XYZ Corp is developing a new software application called 'DataVizPro' for advanced data analytics.",
+              "2": "DataVizPro aims to revolutionize data-driven decision-making processes.",
+              "3": "The software offers powerful visualization capabilities and leverages machine learning algorithms for accurate predictions and trend analysis.",
+              "4": "The development team is focused on ensuring high standards of performance, scalability, and user-friendliness.",
+              "5": "DataVizPro is planned for release in Q3 of this year."
+            }
+          ]
+        }
+      },
+      {
+        "id": "3",
+        "prompt": "Give me the analysis",
+        "context": "Human activities like burning fossil fuels are rapidly altering the planet's climate, leading to rising sea levels, extreme weather, and ecosystem disruptions. Urgent global action to reduce greenhouse gas emissions, switch to renewable energy, and protect ecosystems is crucial to avoid catastrophic consequences.",
+        "response": {
+          "topic": "The text discusses climate change as a pressing global issue.",
+          "summary": "",
+          "keypoints": [
+            {
+              "1": "Climate change is caused by human activities such as burning fossil fuels and deforestation.",
+              "2": "It is leading to rising sea levels, more frequent extreme weather events, and disruption of ecosystems.",
+              "3": "Urgent global action is needed to reduce greenhouse gas emissions, transition to renewable energy, and protect ecosystems.",
+              "4": "ndividuals can contribute by reducing their carbon footprint and advocating for climate action.",
+              "5": ""
+            }
+          ],
+          "Tone": "The tone of the text is urgent and calls for immediate action.",
+          "Audience": "The text seems to target a general audience, aiming to raise awareness about climate change and the need for action.",
+          "Purpose": "The purpose of the text is to inform readers about the causes and impacts of climate change and to encourage them to take action to address it.",
+          "Sentiment": "The overall sentiment of the text is concerned and hopeful, emphasizing the importance of collective action in mitigating climate change.",
+          "Data": [
+            {
+              "1": "The text mentions the cause of climate change (human activities), its impacts (rising sea levels, extreme weather events, ecosystem disruption), and the actions needed to address it (reduce emissions, transition to renewable energy, protect ecosystems).",
+              "2": "It also highlights individual actions that can contribute to addressing climate change (reducing carbon footprint, advocating for climate action)."
+            }
+          ]
+        }
+      },
+      {
+        "id": "4",
+        "prompt": "Summarize the document",
+        "context": "PDF document ***The user have to upload the document***",
+        "response": {
+          "topic": "",
+          "summary": "ABC Corporation achieved significant financial growth in fiscal year 2023, with total revenue reaching $10 billion, a 15% increase from the previous year. This growth was driven by strategic market expansion, product innovation, cost optimization, and acquisitions. The company's focus on employee engagement and customer satisfaction also contributed to its success.",
+          "keypoints": [
+            {
+              "1": "Total revenue for fiscal year 2023 was $10 billion, a 15% increase from the previous year.",
+              "2": "Strong performance in the technology division drove a 20% increase in revenue in that segment.",
+              "3": "Net income for the year reached $2 billion, a 25% increase from the previous yearNet income for the year reached $2 billion, a 25% increase from the previous year.",
+              "4": "Market expansion, product innovation, cost optimization, and acquisitions were key drivers of growth.",
+              "5": "Employee engagement and customer focus were prioritized, contributing to the company's success.",
+              "6": "ABC Corporation is well-positioned for continued growth and success in the future."
+            }
+          ]
+        }
+      }
+    ]
+  }
